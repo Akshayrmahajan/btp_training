@@ -1,0 +1,20 @@
+### GET 
+http://localhost:4004/odata/v4/train/training
+
+### get single
+
+http://localhost:4004/odata/v4/train/training/9c116bbe-5515-48f0-9f23-5d41313cdc98
+
+### Create
+post http://localhost:4004/odata/v4/train/training
+Content-Type: application/json
+
+{
+     "name": "BTP-Bootcamp",
+      "skill": "CAPM",
+      "trainer": "Akshay_m",
+      "location": "Virtual",
+      "room": "Zoom",
+      "trainee": null,
+      "duration": "4"
+}
